@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Stream millionsof songs</name>
+   <tag></tag>
+   <elementGuidId>8ed34224-3866-4f6d-ad05-9fae95ffb511</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='navFooter']/div[4]/table/tbody/tr/td/a/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.navFooterDescText</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>4b23d689-bd8c-4f06-8e02-508a56484663</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>navFooterDescText</value>
+      <webElementGuid>7eb1ba68-fcc6-4a36-bcca-fdcff184519d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Stream millionsof songs</value>
+      <webElementGuid>ea1f28ae-7a68-449e-8775-fa274a25aa1c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;navFooter&quot;)/div[@class=&quot;navFooterLine navFooterLinkLine navFooterDescLine&quot;]/table[@class=&quot;navFooterMoreOnAmazon&quot;]/tbody[1]/tr[1]/td[@class=&quot;navFooterDescItem&quot;]/a[@class=&quot;nav_a&quot;]/span[@class=&quot;navFooterDescText&quot;]</value>
+      <webElementGuid>9d39f4a4-e2d0-4dfc-9f73-460661bb0c7f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='navFooter']/div[4]/table/tbody/tr/td/a/span</value>
+      <webElementGuid>1a882171-179e-4a6f-b9d7-055aafb3bca7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td/a/span</value>
+      <webElementGuid>c8f118df-881a-4ef1-a4e0-cc1832c0b077</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Stream millionsof songs' or . = 'Stream millionsof songs')]</value>
+      <webElementGuid>3464b851-27da-4516-a231-f65a6cb7ddc7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

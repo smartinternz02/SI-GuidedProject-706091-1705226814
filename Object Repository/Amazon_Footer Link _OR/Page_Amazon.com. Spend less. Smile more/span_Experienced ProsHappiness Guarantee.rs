@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Experienced ProsHappiness Guarantee</name>
+   <tag></tag>
+   <elementGuidId>ceb2bdbc-cae3-4ae2-899b-8d14f99de9ee</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='navFooter']/div[4]/table/tbody/tr[3]/td[3]/a/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>8ef61dd8-2245-4a20-b0f2-4462c38630b8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>navFooterDescText</value>
+      <webElementGuid>f9065c34-8d76-4770-a359-96b47238d8e7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Experienced ProsHappiness Guarantee</value>
+      <webElementGuid>20d1ac72-56b1-4ffe-96dd-9c9afd7988f7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;navFooter&quot;)/div[@class=&quot;navFooterLine navFooterLinkLine navFooterDescLine&quot;]/table[@class=&quot;navFooterMoreOnAmazon&quot;]/tbody[1]/tr[3]/td[@class=&quot;navFooterDescItem&quot;]/a[@class=&quot;nav_a&quot;]/span[@class=&quot;navFooterDescText&quot;]</value>
+      <webElementGuid>d6942548-784a-48ba-8923-78f15209edeb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='navFooter']/div[4]/table/tbody/tr[3]/td[3]/a/span</value>
+      <webElementGuid>972c45b7-c0ef-440d-aac8-4052f03862d5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[3]/td[3]/a/span</value>
+      <webElementGuid>6e835ad1-8ddf-4e60-bdda-3eac7049e0d6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Experienced ProsHappiness Guarantee' or . = 'Experienced ProsHappiness Guarantee')]</value>
+      <webElementGuid>0ff443f1-3872-4512-8212-38249629a284</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Get Info EntertainmentProfessionals Need</name>
+   <tag></tag>
+   <elementGuidId>86a8dd4b-c171-4598-93bc-d5cfe5216f9e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='navFooter']/div[4]/table/tbody/tr[5]/td/a/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>tr:nth-of-type(5) > td.navFooterDescItem > a.nav_a > span.navFooterDescText</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>dc260028-a031-4d93-9ed2-dec475e629c3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>navFooterDescText</value>
+      <webElementGuid>ffcc0b37-cbcf-4225-a5b1-41b20ed7f2ce</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Get Info EntertainmentProfessionals Need</value>
+      <webElementGuid>9952d01e-2ff1-4100-b59e-a87d989ce408</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;navFooter&quot;)/div[@class=&quot;navFooterLine navFooterLinkLine navFooterDescLine&quot;]/table[@class=&quot;navFooterMoreOnAmazon&quot;]/tbody[1]/tr[5]/td[@class=&quot;navFooterDescItem&quot;]/a[@class=&quot;nav_a&quot;]/span[@class=&quot;navFooterDescText&quot;]</value>
+      <webElementGuid>b6a21a46-611e-4fef-8e81-c1af830d8019</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='navFooter']/div[4]/table/tbody/tr[5]/td/a/span</value>
+      <webElementGuid>c5cd1dff-a695-4263-842c-635a98d811f8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[5]/td/a/span</value>
+      <webElementGuid>57e0f3e7-065d-4d84-8da4-b29abf028cf3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Get Info EntertainmentProfessionals Need' or . = 'Get Info EntertainmentProfessionals Need')]</value>
+      <webElementGuid>580ad920-458d-4a7f-82a8-01cb8c4d8438</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

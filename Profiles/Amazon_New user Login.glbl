@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>Amazon_New user Login</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Dilip kumar'</initValue>
+      <name>nameElement</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'diliproy624@gmail.com'</initValue>
+      <name>emailElement</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'12345678'</initValue>
+      <name>passwordElement</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'12345678'</initValue>
+      <name>repasswordElement</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

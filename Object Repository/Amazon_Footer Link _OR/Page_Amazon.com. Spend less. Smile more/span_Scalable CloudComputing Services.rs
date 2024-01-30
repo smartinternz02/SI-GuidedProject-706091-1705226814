@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Scalable CloudComputing Services</name>
+   <tag></tag>
+   <elementGuidId>02520b16-0b7e-4348-b768-b30610a4f7ad</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='navFooter']/div[4]/table/tbody/tr[3]/td[5]/a/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>5bf43ba5-a8c3-4844-9ca5-313dc2e675d8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>navFooterDescText</value>
+      <webElementGuid>f6948ca7-11dd-4200-b93f-c2d5c7725ba5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Scalable CloudComputing Services</value>
+      <webElementGuid>dfedda4c-aae9-44a7-8bdf-1373115017de</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;navFooter&quot;)/div[@class=&quot;navFooterLine navFooterLinkLine navFooterDescLine&quot;]/table[@class=&quot;navFooterMoreOnAmazon&quot;]/tbody[1]/tr[3]/td[@class=&quot;navFooterDescItem&quot;]/a[@class=&quot;nav_a&quot;]/span[@class=&quot;navFooterDescText&quot;]</value>
+      <webElementGuid>a4074b32-9d4c-4544-8c18-cea2a42db521</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='navFooter']/div[4]/table/tbody/tr[3]/td[5]/a/span</value>
+      <webElementGuid>60d58b53-f216-4320-a293-13d6cf48edea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[3]/td[5]/a/span</value>
+      <webElementGuid>b086d7b9-c666-4735-9c24-da522bc7ba0c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Scalable CloudComputing Services' or . = 'Scalable CloudComputing Services')]</value>
+      <webElementGuid>ccd3aac9-a0b3-45ae-8dba-04c23561e006</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

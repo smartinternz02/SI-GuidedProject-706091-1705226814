@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Amazon_Login_Data Driven,Chrome 120.0.0.0,,,24-01-2024 18:41:10,24-01-2024 18:43:13,2m - 2.729s,FAILED
+,,,,,,,
+Test Cases/Data Driven_Testing/TC_Amazon_Login_Excel_001,Chrome 120.0.0.0,,,24-01-2024 18:41:44,24-01-2024 18:41:45,1.298s,FAILED
+"openBrowser("""")",Chrome 120.0.0.0,,,24-01-2024 18:41:44,24-01-2024 18:41:45,0.795s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 120.0.0.0,,,24-01-2024 18:41:45,24-01-2024 18:41:45,0.391s,PASSED
+"click(findTestObject(""Object Repository/Amazon_login_Data Driven_OR/Page_Amazon.com. Spend less. Smile more/a_Hello, sign in  Account  Lists""))",Chrome 120.0.0.0,,,24-01-2024 18:41:45,24-01-2024 18:41:45,0.090s,FAILED
+,,,,,,,
+Test Cases/Data Driven_Testing/TC_Amazon_Login_Excel_001,Chrome 120.0.0.0,,,24-01-2024 18:42:15,24-01-2024 18:42:47,32.104s,FAILED
+"openBrowser("""")",Chrome 120.0.0.0,,,24-01-2024 18:42:15,24-01-2024 18:42:16,0.802s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 120.0.0.0,,,24-01-2024 18:42:16,24-01-2024 18:42:18,1.754s,PASSED
+"click(findTestObject(""Object Repository/Amazon_login_Data Driven_OR/Page_Amazon.com. Spend less. Smile more/a_Hello, sign in  Account  Lists""))",Chrome 120.0.0.0,,,24-01-2024 18:42:18,24-01-2024 18:42:47,29.531s,FAILED
+,,,,,,,
+Test Cases/Data Driven_Testing/TC_Amazon_Login_Excel_001,Chrome 120.0.0.0,,,24-01-2024 18:43:12,24-01-2024 18:43:13,1.394s,FAILED
+"openBrowser("""")",Chrome 120.0.0.0,,,24-01-2024 18:43:12,24-01-2024 18:43:13,0.746s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 120.0.0.0,,,24-01-2024 18:43:13,24-01-2024 18:43:13,0.565s,PASSED
+"click(findTestObject(""Object Repository/Amazon_login_Data Driven_OR/Page_Amazon.com. Spend less. Smile more/a_Hello, sign in  Account  Lists""))",Chrome 120.0.0.0,,,24-01-2024 18:43:13,24-01-2024 18:43:13,0.065s,FAILED

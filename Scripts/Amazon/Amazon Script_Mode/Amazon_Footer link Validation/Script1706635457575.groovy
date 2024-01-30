@@ -21,55 +21,55 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.amazon.com/')
 
-WebUI.delay(5)
+WebUI.delay(10)
 
 WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('Object Repository/Amazon_Footer Link _OR/Page_Amazon.com. Spend less. Smile more/span_Stream millionsof songs'))
 
-WebUI.delay(3)
+WebUI.delay(5)
 
 WebUI.back()
 
 WebUI.click(findTestObject('Object Repository/Amazon_Footer Link _OR/Page_Amazon.com. Spend less. Smile more/span_Reach customerswherever theyspend their time'))
 
-WebUI.delay(3)
+WebUI.delay(5)
 
 WebUI.back()
 
 WebUI.click(findTestObject('Object Repository/Amazon_Footer Link _OR/Page_Amazon.com. Spend less. Smile more/span_Ship OrdersInternationally'))
 
-WebUI.delay(3)
+WebUI.delay(5)
 
 WebUI.back()
 
 WebUI.click(findTestObject('Object Repository/Amazon_Footer Link _OR/Page_Amazon.com. Spend less. Smile more/span_Experienced ProsHappiness Guarantee'))
 
-WebUI.delay(3)
+WebUI.delay(5)
 
 WebUI.back()
 
 WebUI.click(findTestObject('Object Repository/Amazon_Footer Link _OR/Page_Amazon.com. Spend less. Smile more/span_Get Info EntertainmentProfessionals Need'))
 
-WebUI.delay(3)
+WebUI.delay(5)
 
 WebUI.back()
 
 WebUI.click(findTestObject('Object Repository/Amazon_Footer Link _OR/Page_Amazon.com. Spend less. Smile more/span_Indie Digital  Print PublishingMade Easy'))
 
-WebUI.delay(3)
+WebUI.delay(5)
 
 WebUI.back()
 
 WebUI.click(findTestObject('Object Repository/Amazon_Footer Link _OR/Page_Amazon.com. Spend less. Smile more/span_Scalable CloudComputing Services'))
 
-WebUI.delay(3)
+WebUI.delay(5)
 
 WebUI.back()
 
 WebUI.click(findTestObject('Object Repository/Amazon_Footer Link _OR/Page_Amazon.com. Spend less. Smile more/a_Prime Video DirectVideo DistributionMade Easy'))
 
-WebUI.delay(3)
+WebUI.delay(5)
 
 WebUI.back()
 

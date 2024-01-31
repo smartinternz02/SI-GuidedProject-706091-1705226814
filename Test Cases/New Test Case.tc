@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC_Home_Validate Search Item</name>
+   <name>New Test Case</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>ccc1b8f0-779b-45db-8742-aadbaa473660</testCaseGuid>
+   <testCaseGuid>7344bd7a-6b25-4ae5-9e9f-b4ddd9ad06fd</testCaseGuid>
 </TestCaseEntity>

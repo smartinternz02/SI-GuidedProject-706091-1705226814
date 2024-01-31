@@ -7,9 +7,9 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>b77ff26f-3b6e-48c4-93cb-0b5c4cfc84be</dataFileGUID>
-   <dataSourceUrl>C:\Users\dilip\Desktop\Amazon Category.xlsx</dataSourceUrl>
+   <dataSourceUrl>DDT_TestData/Amazon Category.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
-   <isInternalPath>false</isInternalPath>
+   <isInternalPath>true</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
    <sheetName>Sheet1</sheetName>

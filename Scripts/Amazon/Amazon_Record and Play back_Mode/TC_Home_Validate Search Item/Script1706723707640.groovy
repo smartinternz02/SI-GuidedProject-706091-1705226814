@@ -21,15 +21,15 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.amazon.com/')
 
-WebUI.click(findTestObject('Object Repository/Amazon_Pages_Search item_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords'))
+WebUI.click(findTestObject('Object Repository/Amazon_SerachIteam_Validation_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Amazon_Pages_Search item_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Alexa Skills _7aa455'), 
-    'search-alias=stripbooks', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Amazon_SerachIteam_Validation_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92'), 
+    'search-alias=stripbooks-intl-ship', true)
 
-WebUI.setText(findTestObject('Object Repository/Amazon_Pages_Search item_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords'), 
+WebUI.setText(findTestObject('Object Repository/Amazon_SerachIteam_Validation_OR/Page_Amazon.com. Spend less. Smile more/input_field-keywords'), 
     'da vinci code')
 
-WebUI.click(findTestObject('Object Repository/Amazon_Pages_Search item_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button'))
+WebUI.click(findTestObject('Object Repository/Amazon_SerachIteam_Validation_OR/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button'))
 
 WebUI.closeBrowser()
 

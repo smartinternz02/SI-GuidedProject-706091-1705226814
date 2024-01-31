@@ -1,0 +1,38 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Amazon_Login_Data Driven,Chrome 120.0.0.0,,,31-01-2024 23:35:36,31-01-2024 23:36:20,44.337s,PASSED
+,,,,,,,
+Test Cases/Data Driven_Testing/TC_Amazon_Login_Excel_001,Chrome 120.0.0.0,,,31-01-2024 23:35:36,31-01-2024 23:35:52,15.671s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,31-01-2024 23:35:36,31-01-2024 23:35:38,1.546s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 120.0.0.0,,,31-01-2024 23:35:38,31-01-2024 23:35:39,1.682s,PASSED
+"click(findTestObject(""Object Repository/Amazon_login_Data Driven_OR/Page_Amazon.com. Spend less. Smile more/a_Hello, sign in  Account  Lists""))",Chrome 120.0.0.0,,,31-01-2024 23:35:39,31-01-2024 23:35:44,5.052s,PASSED
+"click(findTestObject(""Object Repository/Amazon_login_Data Driven_OR/Page_Amazon Sign-In/a_Create your Amazon account""))",Chrome 120.0.0.0,,,31-01-2024 23:35:44,31-01-2024 23:35:46,1.883s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_login_Data Driven_OR/Page_Amazon Registration/input_customerName""), findTestData(""Amazon_Login_dataDriven/Amazon_Login_Details"").getValue(""name"", 1))",Chrome 120.0.0.0,,,31-01-2024 23:35:46,31-01-2024 23:35:48,1.269s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_login_Data Driven_OR/Page_Amazon Registration/input_email""), findTestData(""Amazon_Login_dataDriven/Amazon_Login_Details"").getValue(""email"", 1))",Chrome 120.0.0.0,,,31-01-2024 23:35:48,31-01-2024 23:35:48,0.712s,PASSED
+"setText(findTestObject(""Amazon_login_Data Driven_OR/Page_Amazon Registration/input_password""), findTestData(""Amazon_Login_dataDriven/Amazon_Login_Details"").getValue(""password"", 1))",Chrome 120.0.0.0,,,31-01-2024 23:35:48,31-01-2024 23:35:49,0.728s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_login_Data Driven_OR/Page_Amazon Registration/input_passwordCheck""), findTestData(""Amazon_Login_dataDriven/Amazon_Login_Details"").getValue(""repassword"", 1))",Chrome 120.0.0.0,,,31-01-2024 23:35:49,31-01-2024 23:35:50,0.886s,PASSED
+"click(findTestObject(""Object Repository/Amazon_login_Data Driven_OR/Page_Amazon Registration/inputcontinue""))",Chrome 120.0.0.0,,,31-01-2024 23:35:50,31-01-2024 23:35:51,1.472s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,31-01-2024 23:35:51,31-01-2024 23:35:52,0.145s,PASSED
+,,,,,,,
+Test Cases/Data Driven_Testing/TC_Amazon_Login_Excel_001,Chrome 120.0.0.0,,,31-01-2024 23:35:52,31-01-2024 23:36:04,12.414s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,31-01-2024 23:35:52,31-01-2024 23:35:52,0.744s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 120.0.0.0,,,31-01-2024 23:35:52,31-01-2024 23:35:53,1.100s,PASSED
+"click(findTestObject(""Object Repository/Amazon_login_Data Driven_OR/Page_Amazon.com. Spend less. Smile more/a_Hello, sign in  Account  Lists""))",Chrome 120.0.0.0,,,31-01-2024 23:35:53,31-01-2024 23:35:57,3.754s,PASSED
+"click(findTestObject(""Object Repository/Amazon_login_Data Driven_OR/Page_Amazon Sign-In/a_Create your Amazon account""))",Chrome 120.0.0.0,,,31-01-2024 23:35:57,31-01-2024 23:35:59,1.856s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_login_Data Driven_OR/Page_Amazon Registration/input_customerName""), findTestData(""Amazon_Login_dataDriven/Amazon_Login_Details"").getValue(""name"", 1))",Chrome 120.0.0.0,,,31-01-2024 23:35:59,31-01-2024 23:36:00,1.303s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_login_Data Driven_OR/Page_Amazon Registration/input_email""), findTestData(""Amazon_Login_dataDriven/Amazon_Login_Details"").getValue(""email"", 1))",Chrome 120.0.0.0,,,31-01-2024 23:36:00,31-01-2024 23:36:01,0.674s,PASSED
+"setText(findTestObject(""Amazon_login_Data Driven_OR/Page_Amazon Registration/input_password""), findTestData(""Amazon_Login_dataDriven/Amazon_Login_Details"").getValue(""password"", 1))",Chrome 120.0.0.0,,,31-01-2024 23:36:01,31-01-2024 23:36:02,0.652s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_login_Data Driven_OR/Page_Amazon Registration/input_passwordCheck""), findTestData(""Amazon_Login_dataDriven/Amazon_Login_Details"").getValue(""repassword"", 1))",Chrome 120.0.0.0,,,31-01-2024 23:36:02,31-01-2024 23:36:03,0.792s,PASSED
+"click(findTestObject(""Object Repository/Amazon_login_Data Driven_OR/Page_Amazon Registration/inputcontinue""))",Chrome 120.0.0.0,,,31-01-2024 23:36:03,31-01-2024 23:36:04,1.390s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,31-01-2024 23:36:04,31-01-2024 23:36:04,0.122s,PASSED
+,,,,,,,
+Test Cases/Data Driven_Testing/TC_Amazon_Login_Excel_001,Chrome 120.0.0.0,,,31-01-2024 23:36:04,31-01-2024 23:36:20,15.925s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,31-01-2024 23:36:04,31-01-2024 23:36:05,0.639s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 120.0.0.0,,,31-01-2024 23:36:05,31-01-2024 23:36:06,1.089s,PASSED
+"click(findTestObject(""Object Repository/Amazon_login_Data Driven_OR/Page_Amazon.com. Spend less. Smile more/a_Hello, sign in  Account  Lists""))",Chrome 120.0.0.0,,,31-01-2024 23:36:06,31-01-2024 23:36:13,6.924s,PASSED
+"click(findTestObject(""Object Repository/Amazon_login_Data Driven_OR/Page_Amazon Sign-In/a_Create your Amazon account""))",Chrome 120.0.0.0,,,31-01-2024 23:36:13,31-01-2024 23:36:15,1.898s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_login_Data Driven_OR/Page_Amazon Registration/input_customerName""), findTestData(""Amazon_Login_dataDriven/Amazon_Login_Details"").getValue(""name"", 1))",Chrome 120.0.0.0,,,31-01-2024 23:36:15,31-01-2024 23:36:16,1.552s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_login_Data Driven_OR/Page_Amazon Registration/input_email""), findTestData(""Amazon_Login_dataDriven/Amazon_Login_Details"").getValue(""email"", 1))",Chrome 120.0.0.0,,,31-01-2024 23:36:16,31-01-2024 23:36:17,0.679s,PASSED
+"setText(findTestObject(""Amazon_login_Data Driven_OR/Page_Amazon Registration/input_password""), findTestData(""Amazon_Login_dataDriven/Amazon_Login_Details"").getValue(""password"", 1))",Chrome 120.0.0.0,,,31-01-2024 23:36:17,31-01-2024 23:36:18,0.666s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_login_Data Driven_OR/Page_Amazon Registration/input_passwordCheck""), findTestData(""Amazon_Login_dataDriven/Amazon_Login_Details"").getValue(""repassword"", 1))",Chrome 120.0.0.0,,,31-01-2024 23:36:18,31-01-2024 23:36:18,0.889s,PASSED
+"click(findTestObject(""Object Repository/Amazon_login_Data Driven_OR/Page_Amazon Registration/inputcontinue""))",Chrome 120.0.0.0,,,31-01-2024 23:36:18,31-01-2024 23:36:20,1.444s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,31-01-2024 23:36:20,31-01-2024 23:36:20,0.125s,PASSED

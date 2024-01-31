@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Amazon_Login_Data Driven" time="76.252" tests="3" failures="0" errors="0">
+   <testsuite name="Amazon_Login_Data Driven" tests="3" failures="0" errors="0" time="76.252" skipped="0" timestamp="31-01-2024T18:38:35" hostname="dilip - DKROY" id="Test Suites/Amazon_Login_dataDriven_testSuite/Amazon_Login_Data Driven">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\dilip\\git\\SI-GuidedProject-706091-1705226814\\Reports\\20240131_183832\\Amazon_Login_dataDriven_testSuite\\Amazon_Login_Data Driven\\20240131_183832"/>
+         <property name="logFiles" value="C:\\Users\\dilip\\git\\SI-GuidedProject-706091-1705226814\\Reports\\20240131_183832\\Amazon_Login_dataDriven_testSuite\\Amazon_Login_Data Driven\\20240131_183832\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="dilip - DKROY"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.27.229"/>
+         <property name="sessionId" value="421114cc03f16b6afef604b71227b313"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Data Driven_Testing/TC_Amazon_Login_Excel_001" time="27.481" classname="Test Cases/Data Driven_Testing/TC_Amazon_Login_Excel_001" status="PASSED">
+         <system-out><![CDATA[31-01-2024T18:38:36 - [TEST_CASE][PASSED] - Test Cases/Data Driven_Testing/TC_Amazon_Login_Excel_001: Test Cases/Data Driven_Testing/TC_Amazon_Login_Excel_001
+
+31-01-2024T18:38:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+31-01-2024T18:38:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+31-01-2024T18:38:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+31-01-2024T18:38:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+31-01-2024T18:38:37 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.com/"): Navigate to 'https://www.amazon.com/' successfully
+
+31-01-2024T18:38:39 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.com/' successfully
+
+31-01-2024T18:38:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_login_Data Driven_OR/Page_Amazon.com. Spend less. Smile more/a_Hello, sign in  Account  Lists")): Object: 'Object Repository/Amazon_login_Data Driven_OR/Page_Amazon.com. Spend less. Smile more/a_Hello, sign in  Account  Lists' is clicked on
+
+31-01-2024T18:38:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_login_Data Driven_OR/Page_Amazon.com. Spend less. Smile more/a_Hello, sign in  Account  Lists' is clicked on
+
+31-01-2024T18:38:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_login_Data Driven_OR/Page_Amazon Sign-In/a_Create your Amazon account")): Object: 'Object Repository/Amazon_login_Data Driven_OR/Page_Amazon Sign-In/a_Create your Amazon account' is clicked on
+
+31-01-2024T18:38:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_login_Data Driven_OR/Page_Amazon Sign-In/a_Create your Amazon account' is clicked on
+
+31-01-2024T18:38:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_login_Data Driven_OR/Page_Amazon Registration/input_customerName"), findTestData("Amazon_Login_dataDriven/Amazon_Login_Details").getValue("name", 1)): Text 'Dilip Kumar' is set on object 'Object Repository/Amazon_login_Data Driven_OR/Page_Amazon Registration/input_customerName'
+
+31-01-2024T18:38:59 - [MESSAGE][PASSED] - Text 'Dilip Kumar' is set on object 'Object Repository/Amazon_login_Data Driven_OR/Page_Amazon Registration/input_customerName'
+
+31-01-2024T18:38:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_login_Data Driven_OR/Page_Amazon Registration/input_email"), findTestData("Amazon_Login_dataDriven/Amazon_Login_Details").getValue("email", 1)): Text 'diliproy632@gmail.com' is set on object 'Object Repository/Amazon_login_Data Driven_OR/Page_Amazon Registration/input_email'
+
+31-01-2024T18:39:00 - [MESSAGE][PASSED] - Text 'diliproy632@gmail.com' is set on object 'Object Repository/Amazon_login_Data Driven_OR/Page_Amazon Registration/input_email'
+
+31-01-2024T18:39:00 - [TEST_STEP][PASSED] - setText(findTestObject("Amazon_login_Data Driven_OR/Page_Amazon Registration/input_password"), findTestData("Amazon_Login_dataDriven/Amazon_Login_Details").getValue("password", 1)): Text '12345678' is set on object 'Object Repository/Amazon_login_Data Driven_OR/Page_Amazon Registration/input_password'
+
+31-01-2024T18:39:00 - [MESSAGE][PASSED] - Text '12345678' is set on object 'Object Repository/Amazon_login_Data Driven_OR/Page_Amazon Registration/input_password'
+
+31-01-2024T18:39:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_login_Data Driven_OR/Page_Amazon Registration/input_passwordCheck"), findTestData("Amazon_Login_dataDriven/Amazon_Login_Details").getValue("repassword", 1)): Text '12345678' is set on object 'Object Repository/Amazon_login_Data Driven_OR/Page_Amazon Registration/input_passwordCheck'
+
+31-01-2024T18:39:01 - [MESSAGE][PASSED] - Text '12345678' is set on object 'Object Repository/Amazon_login_Data Driven_OR/Page_Amazon Registration/input_passwordCheck'
+
+31-01-2024T18:39:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_login_Data Driven_OR/Page_Amazon Registration/inputcontinue")): Object: 'Object Repository/Amazon_login_Data Driven_OR/Page_Amazon Registration/inputcontinue' is clicked on
+
+31-01-2024T18:39:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_login_Data Driven_OR/Page_Amazon Registration/inputcontinue' is clicked on
+
+31-01-2024T18:39:03 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+31-01-2024T18:39:03 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Data Driven_Testing/TC_Amazon_Login_Excel_001" time="24.02" classname="Test Cases/Data Driven_Testing/TC_Amazon_Login_Excel_001" status="PASSED">
+         <system-out><![CDATA[31-01-2024T18:39:03 - [TEST_CASE][PASSED] - Test Cases/Data Driven_Testing/TC_Amazon_Login_Excel_001: Test Cases/Data Driven_Testing/TC_Amazon_Login_Excel_001
+
+31-01-2024T18:39:03 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+31-01-2024T18:39:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+31-01-2024T18:39:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+31-01-2024T18:39:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+31-01-2024T18:39:04 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.com/"): Navigate to 'https://www.amazon.com/' successfully
+
+31-01-2024T18:39:06 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.com/' successfully
+
+31-01-2024T18:39:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_login_Data Driven_OR/Page_Amazon.com. Spend less. Smile more/a_Hello, sign in  Account  Lists")): Object: 'Object Repository/Amazon_login_Data Driven_OR/Page_Amazon.com. Spend less. Smile more/a_Hello, sign in  Account  Lists' is clicked on
+
+31-01-2024T18:39:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_login_Data Driven_OR/Page_Amazon.com. Spend less. Smile more/a_Hello, sign in  Account  Lists' is clicked on
+
+31-01-2024T18:39:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_login_Data Driven_OR/Page_Amazon Sign-In/a_Create your Amazon account")): Object: 'Object Repository/Amazon_login_Data Driven_OR/Page_Amazon Sign-In/a_Create your Amazon account' is clicked on
+
+31-01-2024T18:39:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_login_Data Driven_OR/Page_Amazon Sign-In/a_Create your Amazon account' is clicked on
+
+31-01-2024T18:39:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_login_Data Driven_OR/Page_Amazon Registration/input_customerName"), findTestData("Amazon_Login_dataDriven/Amazon_Login_Details").getValue("name", 1)): Text 'Dilip Kumar' is set on object 'Object Repository/Amazon_login_Data Driven_OR/Page_Amazon Registration/input_customerName'
+
+31-01-2024T18:39:23 - [MESSAGE][PASSED] - Text 'Dilip Kumar' is set on object 'Object Repository/Amazon_login_Data Driven_OR/Page_Amazon Registration/input_customerName'
+
+31-01-2024T18:39:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_login_Data Driven_OR/Page_Amazon Registration/input_email"), findTestData("Amazon_Login_dataDriven/Amazon_Login_Details").getValue("email", 1)): Text 'diliproy632@gmail.com' is set on object 'Object Repository/Amazon_login_Data Driven_OR/Page_Amazon Registration/input_email'
+
+31-01-2024T18:39:23 - [MESSAGE][PASSED] - Text 'diliproy632@gmail.com' is set on object 'Object Repository/Amazon_login_Data Driven_OR/Page_Amazon Registration/input_email'
+
+31-01-2024T18:39:23 - [TEST_STEP][PASSED] - setText(findTestObject("Amazon_login_Data Driven_OR/Page_Amazon Registration/input_password"), findTestData("Amazon_Login_dataDriven/Amazon_Login_Details").getValue("password", 1)): Text '12345678' is set on object 'Object Repository/Amazon_login_Data Driven_OR/Page_Amazon Registration/input_password'
+
+31-01-2024T18:39:24 - [MESSAGE][PASSED] - Text '12345678' is set on object 'Object Repository/Amazon_login_Data Driven_OR/Page_Amazon Registration/input_password'
+
+31-01-2024T18:39:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_login_Data Driven_OR/Page_Amazon Registration/input_passwordCheck"), findTestData("Amazon_Login_dataDriven/Amazon_Login_Details").getValue("repassword", 1)): Text '12345678' is set on object 'Object Repository/Amazon_login_Data Driven_OR/Page_Amazon Registration/input_passwordCheck'
+
+31-01-2024T18:39:25 - [MESSAGE][PASSED] - Text '12345678' is set on object 'Object Repository/Amazon_login_Data Driven_OR/Page_Amazon Registration/input_passwordCheck'
+
+31-01-2024T18:39:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_login_Data Driven_OR/Page_Amazon Registration/inputcontinue")): Object: 'Object Repository/Amazon_login_Data Driven_OR/Page_Amazon Registration/inputcontinue' is clicked on
+
+31-01-2024T18:39:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_login_Data Driven_OR/Page_Amazon Registration/inputcontinue' is clicked on
+
+31-01-2024T18:39:27 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+31-01-2024T18:39:27 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Data Driven_Testing/TC_Amazon_Login_Excel_001" time="24.407" classname="Test Cases/Data Driven_Testing/TC_Amazon_Login_Excel_001" status="PASSED">
+         <system-out><![CDATA[31-01-2024T18:39:27 - [TEST_CASE][PASSED] - Test Cases/Data Driven_Testing/TC_Amazon_Login_Excel_001: Test Cases/Data Driven_Testing/TC_Amazon_Login_Excel_001
+
+31-01-2024T18:39:27 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+31-01-2024T18:39:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+31-01-2024T18:39:27 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+31-01-2024T18:39:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+31-01-2024T18:39:28 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.com/"): Navigate to 'https://www.amazon.com/' successfully
+
+31-01-2024T18:39:30 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.com/' successfully
+
+31-01-2024T18:39:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_login_Data Driven_OR/Page_Amazon.com. Spend less. Smile more/a_Hello, sign in  Account  Lists")): Object: 'Object Repository/Amazon_login_Data Driven_OR/Page_Amazon.com. Spend less. Smile more/a_Hello, sign in  Account  Lists' is clicked on
+
+31-01-2024T18:39:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_login_Data Driven_OR/Page_Amazon.com. Spend less. Smile more/a_Hello, sign in  Account  Lists' is clicked on
+
+31-01-2024T18:39:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_login_Data Driven_OR/Page_Amazon Sign-In/a_Create your Amazon account")): Object: 'Object Repository/Amazon_login_Data Driven_OR/Page_Amazon Sign-In/a_Create your Amazon account' is clicked on
+
+31-01-2024T18:39:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_login_Data Driven_OR/Page_Amazon Sign-In/a_Create your Amazon account' is clicked on
+
+31-01-2024T18:39:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_login_Data Driven_OR/Page_Amazon Registration/input_customerName"), findTestData("Amazon_Login_dataDriven/Amazon_Login_Details").getValue("name", 1)): Text 'Dilip Kumar' is set on object 'Object Repository/Amazon_login_Data Driven_OR/Page_Amazon Registration/input_customerName'
+
+31-01-2024T18:39:47 - [MESSAGE][PASSED] - Text 'Dilip Kumar' is set on object 'Object Repository/Amazon_login_Data Driven_OR/Page_Amazon Registration/input_customerName'
+
+31-01-2024T18:39:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_login_Data Driven_OR/Page_Amazon Registration/input_email"), findTestData("Amazon_Login_dataDriven/Amazon_Login_Details").getValue("email", 1)): Text 'diliproy632@gmail.com' is set on object 'Object Repository/Amazon_login_Data Driven_OR/Page_Amazon Registration/input_email'
+
+31-01-2024T18:39:48 - [MESSAGE][PASSED] - Text 'diliproy632@gmail.com' is set on object 'Object Repository/Amazon_login_Data Driven_OR/Page_Amazon Registration/input_email'
+
+31-01-2024T18:39:48 - [TEST_STEP][PASSED] - setText(findTestObject("Amazon_login_Data Driven_OR/Page_Amazon Registration/input_password"), findTestData("Amazon_Login_dataDriven/Amazon_Login_Details").getValue("password", 1)): Text '12345678' is set on object 'Object Repository/Amazon_login_Data Driven_OR/Page_Amazon Registration/input_password'
+
+31-01-2024T18:39:49 - [MESSAGE][PASSED] - Text '12345678' is set on object 'Object Repository/Amazon_login_Data Driven_OR/Page_Amazon Registration/input_password'
+
+31-01-2024T18:39:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_login_Data Driven_OR/Page_Amazon Registration/input_passwordCheck"), findTestData("Amazon_Login_dataDriven/Amazon_Login_Details").getValue("repassword", 1)): Text '12345678' is set on object 'Object Repository/Amazon_login_Data Driven_OR/Page_Amazon Registration/input_passwordCheck'
+
+31-01-2024T18:39:49 - [MESSAGE][PASSED] - Text '12345678' is set on object 'Object Repository/Amazon_login_Data Driven_OR/Page_Amazon Registration/input_passwordCheck'
+
+31-01-2024T18:39:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_login_Data Driven_OR/Page_Amazon Registration/inputcontinue")): Object: 'Object Repository/Amazon_login_Data Driven_OR/Page_Amazon Registration/inputcontinue' is clicked on
+
+31-01-2024T18:39:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_login_Data Driven_OR/Page_Amazon Registration/inputcontinue' is clicked on
+
+31-01-2024T18:39:51 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+31-01-2024T18:39:52 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[31-01-2024T18:38:35 - [TEST_SUITE][PASSED] - Amazon_Login_Data Driven: Test Cases/Data Driven_Testing/TC_Amazon_Login_Excel_001]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

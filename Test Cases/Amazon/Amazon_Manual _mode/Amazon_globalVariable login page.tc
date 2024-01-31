@@ -5,4 +5,56 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>0e65b834-17c4-4d9a-a623-401a910c6f24</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2abfc39c-8f2e-4160-99b4-dbf94837383f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>357817e1-6505-4665-965f-65c3d4839f25</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0d5a385e-358b-4089-b983-037e5346f6fd</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>16102914-b939-4d58-8ed9-a0d8bd32b685</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.nameElement</defaultValue>
+      <description></description>
+      <id>2abfc39c-8f2e-4160-99b4-dbf94837383f</id>
+      <masked>false</masked>
+      <name>nameElement</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.emailElement</defaultValue>
+      <description></description>
+      <id>357817e1-6505-4665-965f-65c3d4839f25</id>
+      <masked>false</masked>
+      <name>emailElement</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.passwordElement</defaultValue>
+      <description></description>
+      <id>0d5a385e-358b-4089-b983-037e5346f6fd</id>
+      <masked>false</masked>
+      <name>passwordElement</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.repasswordElement</defaultValue>
+      <description></description>
+      <id>16102914-b939-4d58-8ed9-a0d8bd32b685</id>
+      <masked>false</masked>
+      <name>repasswordElement</name>
+   </variable>
 </TestCaseEntity>

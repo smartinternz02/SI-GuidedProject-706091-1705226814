@@ -27,6 +27,8 @@ WebUI.click(findTestObject('Amazon_Login item_OR/Page_Amazon Sign-In/a_Create yo
 
 WebUI.setText(findTestObject('Amazon_Login item_OR/Page_Amazon Registration/input_Your name_customerName'), nameElement)
 
+WebUI.verifyCheckpoint(findCheckpoint('Checkpoints/Amazon_login/Amazon_Login_CheckPoint'), false)
+
 WebUI.setText(findTestObject('Amazon_Login item_OR/Page_Amazon Registration/input_US 1_email'), emailElement)
 
 WebUI.setText(findTestObject('Amazon_Login item_OR/Page_Amazon Registration/input_Password_password'), passwordElement)

@@ -1,3 +1,4 @@
-# SI-GuidedProject- Katalon Studio 
+# Automated and Manual Testing of Amazon Website Using Katalon Studio
 
-https://github.com/smartinternz02/SI-GuidedProject-706091-1705226814/blob/main/VIDEO%20RECORDING/Amazon_Testing_Video.mp4
+https://github.com/user-attachments/assets/055b6da4-f0cf-4e7a-bf19-e010447fd62b
+
